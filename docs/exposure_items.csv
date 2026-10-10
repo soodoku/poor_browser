@@ -1,0 +1,76 @@
+study,item,timer,format
+July 2017,14k_birth,14k_birth_time_page submit,14K
+July 2017,14k_religion,14k_religion_time_page submit,14K
+July 2017,14k_illegal,14k_illegal_time_page submit,14K
+July 2017,14k_death,14k_death_time_page submit,14K
+July 2017,14k_increase,14k_increase_time_page submit,14K
+July 2017,14k_science,14k_science_time_page submit,14K
+July 2017,14k_fraud,14k_fraud_time_page submit,14K
+July 2017,14k_mmr,14k_mmr_time_page submit,14K
+July 2017,14k_deficit,14k_deficit_time_page submit,14K
+July 2017,ips_birth,ips_birth_time_page submit,IPS
+July 2017,ips_religion,ips_religion_time_page submit,IPS
+July 2017,ips_illegal,ips_illegal_time_page submit,IPS
+July 2017,ips_death,ips_death_time_page submit,IPS
+July 2017,ips_increase,ips_increase_time_page submit,IPS
+July 2017,ips_science,ips_science_time_page submit,IPS
+July 2017,ips_fraud,ips_fraud_time_page submit,IPS
+July 2017,ips_mmr,ips_mmr_time_page submit,IPS
+July 2017,ips_deficit,ips_deficit_time_page submit,IPS
+July 2017,rw_birth,rw_birth_time_page submit,RW
+July 2017,rw_religion,rw_religion_time_page submit,RW
+July 2017,rw_illegal,rw_illegal_time_page submit,RW
+July 2017,rw_death,rw_death_time_page submit,RW
+July 2017,rw_increase,rw_increase_time_page submit,RW
+July 2017,rw_science,rw_science_time_page submit,RW
+July 2017,rw_fraud,rw_fraud_time_page submit,RW
+July 2017,rw_mmr,rw_mmr_time_page submit,RW
+July 2017,rw_deficit,rw_deficit_time_page submit,RW
+July 2017,fsr_birth,fsr_birth_time_page submit,FSR
+July 2017,fsr_religion,fsr_religion_time_page submit,FSR
+July 2017,fsr_illegal,fsr_illegal_time_page submit,FSR
+July 2017,fsr_death,fsr_death_time_page submit,FSR
+July 2017,fsr_increase,fsr_increase_time_page submit,FSR
+July 2017,fsr_science,fsr_science_time_page submit,FSR
+July 2017,fsr_fraud,fsr_fraud_time_page submit,FSR
+July 2017,fsr_mmr,fsr_mmr_time_page submit,FSR
+July 2017,fsr_deficit,fsr_deficit_tim_page submit,FSR
+July 2017,24k_block1_3,24k_block1_time_page submit,24K
+July 2017,24k_block1_4,24k_block1_time_page submit,24K
+July 2017,24k_block1_5,24k_block1_time_page submit,24K
+July 2017,24k_block1_6,24k_block1_time_page submit,24K
+July 2017,24k_block2_1,24k_block2_time_page submit,24K
+July 2017,24k_block2_2,24k_block2_time_page submit,24K
+July 2017,24k_block2_3,24k_block2_time_page submit,24K
+July 2017,24k_block2_4,24k_block2_time_page submit,24K
+July 2017,24k_block2_5,24k_block2_time_page submit,24K
+March 2017,rgc_o_aca,rgc_o_time_page submit,Choice + open probe
+March 2017,rgc_o_gg,rgc_o_time_page submit,Choice + open probe
+March 2017,rgc_o_aca2,rgc_o_aca2_time_page submit,Choice + open probe
+March 2017,rgc_o_gg2,rgc_o_gg2_time_page submit,Choice + open probe
+March 2017,rgc_o_dt,rgc_o_dt_time_page submit,Choice + open probe
+March 2017,rgc_c_aca,rgc_c_time_page submit,Choice + closed probe
+March 2017,rgc_c_gg,rgc_c_time_page submit,Choice + closed probe
+March 2017,rgc_c_aca2,rgc_c_time_page submit,Choice + closed probe
+March 2017,rgc_c_gg2,rgc_c_gg2_time_page submit,Choice + closed probe
+March 2017,rgc_c_dt,rgc_c_dt_time_page submit,Choice + closed probe
+March 2017,rg_s_aca_1,rg_s_timing_page submit,Scale
+March 2017,rg_s_aca_2,rg_s_timing_page submit,Scale
+March 2017,rg_s_aca_3,rg_s_timing_page submit,Scale
+March 2017,rg_s_aca_4,rg_s_timing_page submit,Scale
+March 2017,rg_s_aca2_1,rg_s_timing_page submit,Scale
+March 2017,rg_s_aca2_2,rg_s_timing_page submit,Scale
+March 2017,rg_s_aca2_3,rg_s_timing_page submit,Scale
+March 2017,rg_s_aca2_4,rg_s_timing_page submit,Scale
+March 2017,rg_s_gg_1,rg_s_gg_timing_page submit,Scale
+March 2017,rg_s_gg_2,rg_s_gg_timing_page submit,Scale
+March 2017,rg_s_gg_3,rg_s_gg_timing_page submit,Scale
+March 2017,rg_s_gg_4,rg_s_gg_timing_page submit,Scale
+March 2017,rg_s_gg2_1,rg_s_gg_timing_page submit,Scale
+March 2017,rg_s_gg2_2,rg_s_gg_timing_page submit,Scale
+March 2017,rg_s_gg2_3,rg_s_gg_timing_page submit,Scale
+March 2017,rg_s_gg2_4,rg_s_gg_timing_page submit,Scale
+March 2017,rg_s_dt_1,rg_s_dt_time_page submit,Scale
+March 2017,rg_s_dt_2,rg_s_dt_time_page submit,Scale
+March 2017,rg_s_dt_3,rg_s_dt_time_page submit,Scale
+March 2017,rg_s_dt_4,rg_s_dt_time_page submit,Scale

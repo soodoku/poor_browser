@@ -1,0 +1,16 @@
+"path","sha256","records","completion_field","completed","unfinished","browser_observed","version_observed"
+"../hidden/data/raw/mturk_march_2017.csv","845864d3861868f27a781aa3ed5875e77b5d8587f216eff22930416521808f02",1133,TRUE,1133,0,1133,1133
+"../waters-of-casablanca/data/raw/mturk_july_2017.csv","62aa2380baf0fcb4ca7aeb64d552de597c2927d61289d27146072e70f329fa67",1296,TRUE,1285,11,1296,1296
+"../waters-of-casablanca/data/raw/mturk_march_2017.csv","845864d3861868f27a781aa3ed5875e77b5d8587f216eff22930416521808f02",1133,TRUE,1133,0,1133,1133
+"../partisan-gaps/data/turk/mam_mturk_070917.csv","62aa2380baf0fcb4ca7aeb64d552de597c2927d61289d27146072e70f329fa67",1296,TRUE,1285,11,1296,1296
+"../partisan-gaps/scripts/mam_mturk_070917.csv","62aa2380baf0fcb4ca7aeb64d552de597c2927d61289d27146072e70f329fa67",1296,TRUE,1285,11,1296,1296
+"../misinformation/data/raw/mturk_july_2017.csv","62aa2380baf0fcb4ca7aeb64d552de597c2927d61289d27146072e70f329fa67",1296,TRUE,1285,11,1296,1296
+"../partisan-gaps/data/turk/mturk-recoded.csv","336cc81096ba8a8ecee8ba2b3ea88a34bd22bca47dff64abf7ab481bf186b506",1253,TRUE,1253,0,1253,1253
+"../partisan-gaps/data/turk/mturk-recoded-greaterthan7.csv","49aab41423d9baf3fb1341880aa26cbf09b3fc2f7d68c6fe4f3508000364787f",1251,TRUE,1251,0,1251,1251
+"../partisan-gaps/data/mturk_hk/hidden_knowledge_March 28, 2017_20.29.csv","845864d3861868f27a781aa3ed5875e77b5d8587f216eff22930416521808f02",1133,TRUE,1133,0,1133,1133
+"../partisan-gaps/data/mturk_hk/hidden_knowledge_March 27, 2017_14.38.csv","45c8eed1a24528d7a9f6c80bca5bb07ac79adaa187b7e9be5b9a99070eeac3dd",1090,TRUE,1090,0,1090,1090
+"../partisan-gaps/data/mturk_hk/mturk_hk_recoded.csv","755d720c5884c718999923e37a500acc360d04b07f2c5a155b8a92c7433ffb8b",1059,TRUE,1059,0,1059,1059
+"../partisan-gaps/data/mturk1.csv","8c8d918c7f5c90a37eca104cf8af665525993c630a3d17825a8ea53e61c77a68",5652,TRUE,5652,0,5652,5652
+"../extreme_recall_2023/data/lucid/er2_lucid_jan2023.csv","9b891b08fbff7c0f3cdf922e652122b6710b507b2a412b4aa93ec57fa56f28a5",904,TRUE,904,0,904,904
+"../prospect_theory/data/protzko/source/StanfordProspectwithinsubjects2x2.dta","b8e273ce59e4b7d15a41118b39ba63a05582969a1bd348b01aaef9158e9407c8",1647,FALSE,NA,NA,1647,NA
+"../prospect_theory/data/protzko/source/StanfordProspectwithinsubjects2x2REPLICATE.dta","7ce8be69ef9d7b48a9cc9b9da0cb51afc4cdbfcf0281841414ef8d524d3e27a3",1442,FALSE,NA,NA,1442,NA

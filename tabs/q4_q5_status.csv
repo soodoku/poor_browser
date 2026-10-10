@@ -1,0 +1,5 @@
+"question","status","reason"
+"Adjusted completion","Not identified in current local data","Late demographics exclude unfinished cases; completer-only files have no outcome variation"
+"Added predictive information","Awaiting eligible panel data","No verified baseline profiles plus prior history and an independent survey/wave evaluation"
+"Composition","Pre-participation profiles required","Observed completer demographics do not recover starter composition"
+"Interface remedy","Awaiting randomized-layout microdata","Observational gaps do not estimate the benefit of changing the interface"

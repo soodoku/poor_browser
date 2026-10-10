@@ -1,0 +1,9 @@
+construct,measure,universe,assumption,interpretation
+Completion,Recorded finished vs unfinished,Observed consented starters in the retained sample,Termination coding distinguishes screenouts; no claim about omitted URL visits,Descriptive participation rate
+Answer provision,Blank exported fields linked to positive page-submit timers,Observed submitted blocks with mapped questions,Timer-to-question map matches deployed instrument; unsubmitted pages remain unobserved,Conditional blank-field rate; July sliders include explicit Not Applicable
+Burden,Elapsed seconds; median and quartiles,Finished records or separately defined Stanford retained sample,Recorded time includes inactivity and returns,Elapsed duration not active effort
+Version recency,July desktop Chrome below59 vs59,Windows Mac or Linux Chrome records at July9 field date,Parsed major version and recorded OS identify family-specific release comparison,Earlier major version not measured rendering failure
+Resolution,Shorter side below600 pixels,Valid recorded resolution,Fixed descriptive threshold; no physical-size or viewport claim,Recorded-resolution association
+Composition,Starter vs completer profiles,Requires profiles measured before participation,Profiles available for unfinished cases and appropriate population benchmark for bias,Not estimated from current local files
+Added information,Held-out calibration Brier and log loss versus baseline,Requires eligible repeated-panel data,No future leakage; identical held-out records,Not estimated from current local files
+Open-ended response length,Trimmed Unicode character count and whitespace-token words,March common narrative prompts with positive page-submit timers; equal-weight person mean of both prompts,Recorded text measures supplied text; may include copying dictation or uncertainty statements,Descriptive text quantity not semantic quality or browser causality

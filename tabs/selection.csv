@@ -1,0 +1,5 @@
+"survey","controls_observed","n","completed","dropout","year"
+"Demographic",FALSE,58,46,12,2009
+"Demographic",TRUE,2007,1977,30,2009
+"Political",FALSE,320,62,258,2009
+"Political",TRUE,2007,2007,0,2009

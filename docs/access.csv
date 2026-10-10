@@ -1,0 +1,7 @@
+source,status,required_input,planned_analysis
+Local survey exports,Analyzed,Sibling paths or SOURCE_ROOT,Completion; timer-linked blanks; duration; metadata coverage
+JSS supplement,Analyzed for token coverage,JSS_UA_SOURCE,Coverage only; no independently verified parser accuracy
+CRONOS-1,API specification retrieved; user ID unavailable,ESS user ID and retrieved paradata plus codebook,Entry metadata coverage; repeated-wave completion; held-out predictions
+Digitize,Previously restricted; current archive requests timed out,Reachable AUSSDA scientific-use archive and authorized download DOI10.11587/LUSBOX,Resolution and QR-entry breakoff replication
+GESIS wave hd,Official access instructions checked; approved agreement required,Approved Standard Edition download with layout assignment and online completion,Intention-to-treat layout effect; no device strata from completion-only reports
+LISS mobile crossover,Codebook downloaded; Stata download redirects to login,Authorized archive access; baseline and all crossover files; assignment and text availability checks,Common-question response length and participation under randomized device assignment
