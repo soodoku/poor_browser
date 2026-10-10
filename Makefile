@@ -45,8 +45,8 @@ validate-extensions:
 check: paper lint test simulate
 
 ci-docker:
-	docker run --rm -e RENV_PATHS_CACHE=/project/renv/cache -v "$(CURDIR):/project" -w /project rocker/r-ver:4.6.0 \
-		bash -lc 'apt-get update && apt-get install -y --no-install-recommends make cmake libxml2-dev libuv1-dev poppler-utils latexmk texlive-xetex texlive-latex-extra texlive-fonts-recommended lmodern && make restore check'
+	docker run --rm -e DEBIAN_FRONTEND=noninteractive -e RENV_PATHS_CACHE=/project/renv/cache -v "$(CURDIR):/project" -w /project rocker/r-ver:4.6.0 \
+		bash -lc 'apt-get update && apt-get install -y --no-install-recommends make cmake libxml2-dev libuv1-dev zlib1g-dev poppler-utils latexmk texlive-xetex texlive-latex-extra texlive-fonts-recommended lmodern && make restore check'
 
 clean:
 	cd ms && latexmk -c main.tex
