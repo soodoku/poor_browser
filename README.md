@@ -72,7 +72,7 @@ This uses R packages pinned in `renv.lock`, XeLaTeX, and `latexmk`. It rebuilds
 historical and question-organized analyses, figures, tables, and the manuscript,
 then runs lint, tests, and simulations. All reported numerical findings use
 generated tables and macros. `make format` applies styler. `make ci-docker`
-runs checks with the standard `rocker/verse:4.6.0` image and a running Docker daemon.
+runs checks with the standard `rocker/r-ver:4.6.0` image and a running Docker daemon.
 
 The normal build consumes saved aggregate snapshots and does not require sibling
 repositories or account-gated downloads. To regenerate the snapshots from the
