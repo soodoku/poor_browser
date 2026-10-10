@@ -1,0 +1,32 @@
+key,source,checked,claim
+microsoft2022,https://learn.microsoft.com/en-us/previous-versions/windows/win32/win7appqual/internet-explorer-8---user-agent-string,2026-10-06,MSIE 7 with Trident 4 identifies IE8 compatibility behavior
+sandwich,https://sandwich.r-forge.r-project.org/reference/vcovHC.html,2026-10-06,HC2 covariance interface and interpretation
+villar2018,https://openaccess.city.ac.uk/id/eprint/30024/1/CRONOS_user_guide_e01_1.pdf,2026-10-06,Basic and detailed paradata cover participation devices software and session behavior
+villar2018,https://openaccess.city.ac.uk/id/eprint/30024/1/CRONOS_user_guide_e01_1.pdf,2026-10-06,Country and respondent ID are linkage keys
+essapi,https://ess.sikt.no/en/api,2026-10-06,Data download uses ESS user ID
+haven,https://haven.tidyverse.org/reference/read_spss.html,2026-10-06,SPSS labels and missing-value import
+renv,https://rstudio.github.io/renv/reference/snapshot.html,2026-10-06,Explicit dependency snapshot and lockfile
+rossmann2020,https://www.jstatsoft.org/article/view/v092c01,2026-10-07,29-survey corpus; supplement independently downloaded and inspected
+pfaff2025,https://doi.org/10.11587/LUSBOX,2026-10-07,1228 observations; 19 variables; restricted data file and public documentation
+schwerdtfeger2026,https://journals.sagepub.com/doi/10.1177/14707853261483760,2026-10-07,Randomized layouts in wave hd; footnote 3 restricts device observation to completed web surveys
+chrome2017,https://chromereleases.googleblog.com/2017/06/stable-channel-update-for-desktop.html,2026-10-07,Chrome 59 desktop stable released June 5 2017
+chrome60,https://chromereleases.googleblog.com/2017/07/stable-channel-update-for-desktop.html,2026-10-07,Chrome 60 desktop stable released July 25 2017 after July survey fieldwork
+qualtricsslider,https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/standard-content/slider/,2026-10-07,Selecting Not Applicable exports a blank cell; slider blanks do not identify omission
+qualtricstiming,https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/timing/,2026-10-07,Page-submit seconds accumulate across visits; total duration includes interruptions
+callegaro2013,https://callegaroresearch.com/wp-content/uploads/2025/07/callegaroparadatawebsurveys2013.pdf,2026-10-07,Device/navigation paradata taxonomy; printed page 271 cites Sood 2011; bibliography names original note
+revilla2016,https://link.springer.com/article/10.1007/s11135-015-0273-2,2026-10-07,Publisher abstract: randomized device/format study; character counts distinct from nonanswer and nonsubstantive responses
+antoun2017,https://academic.oup.com/poq/article/81/S1/280/3091905,2026-10-07,Publisher abstract and indexed sections: crossover design; no general smartphone quality disadvantage
+antoun2020,https://journals.sagepub.com/doi/10.1177/0894439318823703,2026-10-07,Publisher abstract and data statement: text-entry pages have larger smartphone time penalty; same LISS crossover
+schmidt2020,https://majournals.bib.uni-mannheim.de/mda/article/view/2019.05,2026-10-07,Publisher abstract: length and interpretability are distinct; respondent education/motivation associations
+vehovar2026,https://doi.org/10.1093/jssam/smag003,2026-10-07,Review taxonomy separates response quality respondent characteristics and survey estimates
+lissmobile,https://www.dataarchive.lissdata.nl/study-units/view/497,2026-10-07,Official study record and wave-one file inventory; microdata not downloaded
+rttest,https://stat.ethz.ch/R-manual/R-devel/library/stats/html/t.test.html,2026-10-07,Welch variance and degrees-of-freedom convention with var.equal FALSE
+rnchar,https://stat.ethz.ch/R-manual/R-devel/library/base/html/nchar.html,2026-10-07,Character counts differ from bytes and display widths; missing-value handling
+wasow2026,https://doi.org/10.1017/pan.2026.10041,2026-10-07,Published article: character counts and nonresponse as behavioral signals; transforms and normalizes within mode for response ceilings; reference list checked
+denscombe2008,https://journals.sagepub.com/doi/10.1177/0894439307309671,2026-10-07,Publisher abstract: matched adolescent groups; no statistically significant online-paper response-length difference
+cavaille2025,https://doi.org/10.1017/psrm.2024.27,2026-10-07,Published article sections 2-3: randomized opinion instruments; policy-letter characters used as behavioral validation outcome
+li_openended,https://yimeng-li.com/all_research/,2026-10-07,Author abstract only: three incentive experiments; current working-paper listing; linked full PDF unavailable; Wasow cites 2023 presentation
+moran2019,https://www.nngroup.com/articles/usability-testing-101/,2026-10-07,Task-based observation of realistic users; qualitative diagnosis distinct from quantitative benchmarking
+w3c_easychecks,https://www.w3.org/WAI/test-evaluate/preliminary/,2026-10-07,Preliminary accessibility review; not a complete accessibility audit
+lissmobile_codebook,https://www.dataarchive.lissdata.nl/hosted-files/download/2926,2026-10-07,Downloaded codebook: assignment groups; PC groups absent from smartphone file; hobbies prompt permits blanks
+gesis_access,https://www.gesis.org/en/gesis-panel/data-access/data-access-gesis-panelpop,2026-10-07,Standard Edition requires approved data-use agreement; Campus File is teaching-only

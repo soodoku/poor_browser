@@ -1,45 +1,96 @@
-## Poor Browsers
+## “Poor” Browsers and Internet Surveys
 
-The poor, the old, the less educated, and racial minorities abandon Internet surveys at higher rates. It is not clear why. In fact with incentive-based surveys, one expects the pattern among the poor to be roughly opposite of what we see. One possible explanation for the counter-intuitive empirical observation is that respondents from these demographics have slower Internet connections, use older browsers (which pose other problems), and are less proficient in using computers. Some of these problems are fixable and if fixed will lead to less biased samples.
+Gaurav Sood
 
-### Hypotheses
+What can routinely collected browser and device metadata tell survey
+organizations about participation, answer provision, and sample composition?
+This project evaluates descriptive signals and distinguishes them from evidence
+for forecasting or changing survey delivery.
 
-Given that older browsers are likelier to display the survey incorrectly and the type of browser a person is using is a reasonable proxy for respondent's proficiency in using computers (and possibly the speed of the Internet connection), we hypothesize that respondents using older browsers may abandon surveys at higher rates than those using more modern browsers and that surveys taken using old browsers contain greater missing data. We control for some known correlates of the extent of missing data, and propensity to abandon surveys - race, age, and education.
+The original July 31, 2011 note was cited in Callegaro’s 2013 chapter on web
+survey paradata. The [literature review](docs/literature.md) documents that history
+and relates the extension to subsequent work.
 
-### Data and Script
+Read the [research note](ms/main.pdf). The manuscript and analysis follow the
+same questions:
 
-* [Data](luth2.rdata)
-* [Script](browser.R)
+1. **Why examine technical paradata?** Define the practical uses and each study's contribution.
+2. **What does the signal measure?** Establish technical definitions, outcome denominators, and assumptions.
+3. **Where does it identify differences?** Compare completion, recorded answers, and elapsed time.
+4. **Does it add useful information?** Distinguish descriptive associations from added predictive value.
+5. **What could a survey organization do with it?** Connect findings to diagnosis, forecasting, delivery, and composition monitoring.
 
-### Description of Data and Measures
+The historical political-survey completion association changes substantially
+when Internet Explorer compatibility settings are reclassified. July 2017
+comparisons by desktop Chrome recency and recorded resolution are imprecise.
+March narrative responses are shorter in the mobile-OS group; browser-family
+comparisons also reflect device composition. Additional surveys show different
+elapsed-time patterns. July slider blanks
+include explicit “Not Applicable” selections and cannot be read as item
+nonresponse. Current local data do not support the proposed panel forecasting
+or intervention analyses; these are specified external-data extensions.
 
-#### Data
+<p align="center">
+  <img width="95%" src="figs/question_completion.png" alt="Completion differences under historical browser definitions and July 2017 browser and resolution comparisons, with 95 percent confidence intervals">
+</p>
 
-Respondents come from 1.4 million members of the Internet panel. Panel members were recruited in several ways. Initially, RDD phone calls were made to invite American adults to sign up to receive email invitations to participate in surveys, yielding about 2,500 panel members.  Additional phone calls were made to professionals working in the information technology sector who were on professional lists; these calls yielded about 2,500 more panel members.  These initial 5,000-panel members were offered a chance to win cash or gift certificates if they would refer friends or family who might sign up to complete online surveys.  Referred panel members were offered the same incentives to refer other people.  Panel members received a chance to win a prize each time they completed a survey, when someone they referred completed a survey and each time the referral's referral completed a survey. Panel members were also recruited through online ads (on the firm's own website, news sites, blogs, or search engines) and through emails from businesses or non-profit organizations with which the panelists had an affiliation. 72,000 members of a stratified random sample of the panel received an email inviting them to participate in our survey, and 2,632 did so (4\% response rate with a 2\% completion rate).  The probability of selection within demographic strata was specified so that invitees resembled the distribution of gender, age, and Census region in the U.S. adult population, as estimated by the 2000 Census.  No quotas were used to restrict who completed the survey. Respondents were entered into a sweepstakes in return for completing our survey.  Email invitations were sent on December 15, 2009, December 21, 2009, and January 10th, 2010. The resulting sample is highly representative with an average error on observable sociodemographic characteristics less than 2\%.
+### Analysis and repository
 
-#### Measures
+| Location | Role |
+|---|---|
+| `docs/analysis_plan.md` | Retrospective specifications, prior result exposure, and external-data design |
+| `docs/measurements.csv` | Constructs, measures, denominators, assumptions, and interpretation |
+| `docs/exposure_items.csv` | Explicit 2017 item-to-timer mappings |
+| `docs/access.csv` | Computed versus pending data contributions |
+| `docs/external_access.md` | Download attempts, exact source files, and remaining access requirements |
+| `docs/ui_testing.md` | Compatibility checks, task-based usability study, and randomized repair test |
+| `R/` | Shared imports, technical measures, estimates, and exhibit helpers |
+| `scripts/import_signals.R` | Optional source imports and aggregate snapshots |
+| `scripts/questions.R` | Analysis outputs organized by the manuscript's questions |
+| `scripts/question_exhibits.R` | Shared result tables, figure, and manuscript macros |
+| `data/raw/` | Historical analysis file and provenance |
+| `data/validation/` | Aggregate source snapshots, hashes, overlap checks, and metadata coverage |
+| `tabs/study_years.csv` | Fieldwork years and dates; unknown dates are explicit |
+| `tabs/q*` | Question-organized results, including explicit unavailable-analysis statuses |
+| `ms/` | Main note, historical appendix, bibliography, and compiled PDF |
+| `tests/testthat/` | Denominator, parsing, sparse-inference, and regression checks |
+| `archive/` | Original writing and code |
 
-**DV**
+The [additional-data review](docs/additional_data.md) describes accessible and
+restricted sources. The [audit record](docs/audit.md) preserves historical
+corrections and the new source checks. Exact file copies and repeated item rows
+are not treated as independent surveys or respondents.
 
-1. Whether the person completed the survey or not
-2. Number of missing fields in the survey
+### Reproduce the note
 
-**IV**
+```sh
+make restore
+make check
+```
 
-1. Browser - dichotomized into old and new. Old - Internet Explorer 7 or lower, Firefox 3.0 or lower. 
-2. Age in years
-3. Education - years of education
-4. Race - 4 categories: White NH, Black NH, Hispanics, Other
+This uses R packages pinned in `renv.lock`, XeLaTeX, and `latexmk`. It rebuilds
+historical and question-organized analyses, figures, tables, and the manuscript,
+then runs lint, tests, and simulations. All reported numerical findings use
+generated tables and macros. `make format` applies styler. `make ci-docker`
+runs checks with the standard `rocker/r-ver:4.6.0` image and a running Docker daemon.
 
-### Results and Discussion
+The normal build consumes saved aggregate snapshots and does not require sibling
+repositories or account-gated downloads. To regenerate the snapshots from the
+authorized local source files:
 
-#### Results
+```sh
+mkdir -p tmp
+curl -L --fail 'https://www.jstatsoft.org/article/download/v092c01/3903' -o tmp/parseuas.dta
+JSS_UA_SOURCE=tmp/parseuas.dta make import-signals
+make check
+```
 
-1. People using older browsers are less likely to complete the survey. 
-2. There is some evidence that respondents using older browsers have more missing data.
+Set `SOURCE_ROOT` if the sibling repositories are located elsewhere. Source
+imports keep respondent records and identifiers in memory and write only
+aggregate outputs. `make validate-sources` repeats the original SPSS linkage
+checks; `make validate-extensions` repeats the broader export inventory.
 
-#### Discussion
-
-The inference is hampered by the limitations of the measures and the sample. The type of browser is a proxy for the user's proficiency in using the Internet, the bandwidth of her Internet connection, etc. Direct measures of variables of interest - speed on Internet connection, data on how the survey is displayed, etc. - would be vastly superior.
-
-Since the data are from a self-selected sample recruited online, there is every chance that it over-represents those who are better at using computers and the Internet. This bias in the sample likely means that the effects reported here are not representative of the population at large. 
+CRONOS, Digitize!, and GESIS microdata remain access-dependent. Their intended
+analyses and required inputs are explicit in the plan and access ledger. No
+predictions, composition corrections, or intervention effects are substituted
+for those pending analyses.

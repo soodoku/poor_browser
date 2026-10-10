@@ -1,0 +1,11 @@
+"metric","value"
+"export_records",1296
+"export_unfinished",11
+"us_consented_records",1264
+"us_completed",1253
+"us_unfinished",11
+"unfinished_browser_observed",11
+"unfinished_age_missing",9
+"unfinished_party_id_missing",11
+"us_spam_flag",0
+"us_unfinished_without_spam",11

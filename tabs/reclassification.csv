@@ -1,0 +1,13 @@
+"survey","old","new","Freq","year"
+"Demographic","Legacy regex","Legacy token",894,2009
+"Demographic","Other regex","Legacy token",16,2009
+"Demographic","Legacy regex","Other recognized",43,2009
+"Demographic","Other regex","Other recognized",1098,2009
+"Demographic","Legacy regex","Unknown",1,2009
+"Demographic","Other regex","Unknown",13,2009
+"Political","Legacy regex","Legacy token",1031,2009
+"Political","Other regex","Legacy token",17,2009
+"Political","Legacy regex","Other recognized",50,2009
+"Political","Other regex","Other recognized",1210,2009
+"Political","Legacy regex","Unknown",1,2009
+"Political","Other regex","Unknown",18,2009

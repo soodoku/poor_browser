@@ -1,0 +1,18 @@
+Package: poorbrowser
+Type: Project
+Title: Technical Metadata and Survey Performance
+Version: 0.0.1
+Authors@R: person("Gaurav", "Sood", role = c("aut", "cre"), email = "gsood07@gmail.com")
+Description: Descriptive analysis of browser and device metadata, survey
+    completion, answer provision, and elapsed time across online surveys.
+Encoding: UTF-8
+Imports:
+    digest,
+    ggplot2,
+    haven,
+    lintr,
+    renv,
+    sandwich,
+    styler,
+    testthat
+Config/testthat/edition: 3

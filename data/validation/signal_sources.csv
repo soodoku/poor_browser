@@ -1,0 +1,6 @@
+"study","path","sha256","raw_records","analysis_records","completed","unfinished","first_date","last_date","universe","year"
+"March 2017","../hidden/data/raw/mturk_march_2017.csv","845864d3861868f27a781aa3ed5875e77b5d8587f216eff22930416521808f02",1133,1060,1060,0,"2017-03-25","2017-03-27","Recorded finished responses for duration",2017
+"July 2017","../waters-of-casablanca/data/raw/mturk_july_2017.csv","62aa2380baf0fcb4ca7aeb64d552de597c2927d61289d27146072e70f329fa67",1296,1264,1253,11,"2017-07-09","2017-07-09","Recorded finished responses for duration",2017
+"Lucid 2024","../extreme_recall_2023/data/lucid/er2_lucid_jan2023.csv","9b891b08fbff7c0f3cdf922e652122b6710b507b2a412b4aa93ec57fa56f28a5",904,904,904,0,"2024-01-06","2024-01-07","Recorded finished responses for duration",2024
+"Stanford A","../prospect_theory/data/protzko/source/StanfordProspectwithinsubjects2x2.dta","b8e273ce59e4b7d15a41118b39ba63a05582969a1bd348b01aaef9158e9407c8",1647,1460,NA,NA,"2018-02-14","2018-03-25","Retained records with no screenout flag; completion status unverified",2018
+"Stanford B","../prospect_theory/data/protzko/source/StanfordProspectwithinsubjects2x2REPLICATE.dta","7ce8be69ef9d7b48a9cc9b9da0cb51afc4cdbfcf0281841414ef8d524d3e27a3",1442,1304,NA,NA,"2018-02-15","2018-03-22","Retained records with no screenout flag; completion status unverified",2018

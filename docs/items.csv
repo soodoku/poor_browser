@@ -1,0 +1,15 @@
+survey,column,label,interpretation
+Demographic,qdhand,Handedness,Fixed-field blank sensitivity; exposure unverified
+Demographic,qd1,State,Fixed-field blank sensitivity; exposure unverified
+Demographic,qd8,Gender,Fixed-field blank sensitivity; exposure unverified
+Demographic,qd4,Household composition,Fixed-field blank sensitivity; exposure unverified
+Demographic,qd7m,Birth month,Fixed-field blank sensitivity; exposure unverified
+Demographic,qd7y,Birth year,Fixed-field blank sensitivity; exposure unverified
+Demographic,qd9,Marital status,Fixed-field blank sensitivity; exposure unverified
+Demographic,qd11,Education,Fixed-field blank sensitivity; exposure unverified
+Demographic,qd12,Hispanic origin,Fixed-field blank sensitivity; exposure unverified
+Political,qk1,Biden office,Fixed-field blank sensitivity; exposure unverified
+Political,qk2,Constitutionality authority,Fixed-field blank sensitivity; exposure unverified
+Political,qk3,Veto override threshold,Fixed-field blank sensitivity; exposure unverified
+Political,qk4,House majority party,Fixed-field blank sensitivity; exposure unverified
+Political,qk5,More conservative party,Fixed-field blank sensitivity; exposure unverified

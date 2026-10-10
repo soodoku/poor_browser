@@ -1,0 +1,15 @@
+"dimension","group","outcome","n","mean","variance","q25","median","q75","question","study","year"
+"browser","Chrome","characters",701,230.743223965763,44937.3396861626,98,175,295,"Immigration","March 2017",2017
+"browser","Edge","characters",38,257.315789473684,49683.6813655761,103,201,318.25,"Immigration","March 2017",2017
+"browser","Firefox","characters",200,250.375,34458.6777638191,119,211,322.25,"Immigration","March 2017",2017
+"browser","IE","characters",46,204.260869565217,35733.3971014493,91.75,145,235.25,"Immigration","March 2017",2017
+"browser","Safari","characters",75,222.773333333333,30613.7722522522,91.5,189,272.5,"Immigration","March 2017",2017
+"os","Desktop OS","characters",980,238.424489795918,42675.754251527,109,185.5,312,"Immigration","March 2017",2017
+"os","Mobile OS","characters",80,175.65,26403.3443037975,73,148,230.25,"Immigration","March 2017",2017
+"browser","Chrome","characters",701,192.382310984308,30538.3993437946,82,149,251,"Climate change","March 2017",2017
+"browser","Edge","characters",38,197.026315789474,30796.1344238976,79.25,155,250,"Climate change","March 2017",2017
+"browser","Firefox","characters",200,218.815,29183.8500251256,101.5,181,273,"Climate change","March 2017",2017
+"browser","IE","characters",46,178.021739130435,20206.8661835749,83.75,141.5,231.5,"Climate change","March 2017",2017
+"browser","Safari","characters",75,174.546666666667,21597.089009009,68.5,147,254.5,"Climate change","March 2017",2017
+"os","Desktop OS","characters",980,201.479591836735,30320.5685309874,87,159,264,"Climate change","March 2017",2017
+"os","Mobile OS","characters",80,124.25,11000.1898734177,53.5,99.5,168.25,"Climate change","March 2017",2017
